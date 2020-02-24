@@ -1,22 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.NSubstitute;
-
+using FlowerShop;
 namespace FlowerShop
 {
     public class Order : IOrder, IIdentified
     {
         private List<Flower> flowers;
         private bool isDelivered = false;
-
         public int Id { get; }
 
         // should apply a 20% mark-up to each flower.
         public double Price {
             get {
-                List<Flower> totalflowers = Substitute.For <List<Flower>>();
-                
                 return 0;
             }
         }
@@ -55,15 +51,8 @@ namespace FlowerShop
         }
 
         public void Deliver()
-        {   // i tried adding a reference for the NSubstitute package but i couldnt find it yet it was installed 
-            // arrrange
-            IOrderDAO o = Substitute.For<IOrderDAO>();
-            Order order01 = Substitute.For<Order>();
-            //act
-            o.SetDelivered(order01).Return(o);
-            //assert
-            Assert.AreEqual(o.SetDelivered(order01), o);
-
+        {
+            
             throw new NotImplementedException();
         }
     }

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "Castle.Core/4.3.1": {
+      "Castle.Core/4.4.0": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -655,10 +655,10 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "NSubstitute/4.0.0": {
+      "NSubstitute/4.2.1": {
         "type": "package",
         "dependencies": {
-          "Castle.Core": "4.3.1",
+          "Castle.Core": "4.4.0",
           "System.Threading.Tasks.Extensions": "4.3.0"
         },
         "compile": {
@@ -1683,7 +1683,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "NSubstitute": "4.0.0"
+          "Nsubstitute": "4.2.1"
         },
         "compile": {
           "bin/placeholder/FlowerShop.dll": {}
@@ -1695,17 +1695,17 @@
     }
   },
   "libraries": {
-    "Castle.Core/4.3.1": {
-      "sha512": "Dx90A7xzdyYiaq1aMn3QmblpFAaVhDCiZkSblt96pf8QopOjLxCcs5ufKJA1zyg2L+Hxjnzx3JNrmfK8ZMRHvA==",
+    "Castle.Core/4.4.0": {
+      "sha512": "b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
       "type": "package",
-      "path": "castle.core/4.3.1",
+      "path": "castle.core/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ASL - Apache Software Foundation License.txt",
         "CHANGELOG.md",
         "LICENSE",
-        "castle.core.4.3.1.nupkg.sha512",
+        "castle.core.4.4.0.nupkg.sha512",
         "castle.core.nuspec",
         "lib/net35/Castle.Core.dll",
         "lib/net35/Castle.Core.xml",
@@ -1874,7 +1874,7 @@
       ]
     },
     "Microsoft.NETCore.App/2.2.0": {
-      "sha512": "QU8taCyeyePwatrj+h+750lMnsPCq3YPaGmsdtSHXPCjDyjto2KT7QDNVet0oRliX4PjaINpyg0Yzd9DnQ/Wkw==",
+      "sha512": "7z5l8Jp324S8bU8+yyWeYHXUFYvKyiI5lqS1dXgTzOx1H69Qbf6df12kCKlNX45LpMfCMd4U3M6p7Rl5Zk7SLA==",
       "type": "package",
       "path": "microsoft.netcore.app/2.2.0",
       "files": [
@@ -2139,7 +2139,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.2.0": {
-      "sha512": "OK/H8p9Ig6mLMITjXJ4VOewrJg/TU+dAPHE4BdMWMv+8COzBehf7XF1+DofKkmqdHpO2cJoS5Sc9PEZ6PKCbsg==",
+      "sha512": "DrhaKInRKKvN6Ns2VNIlC7ZffLOp9THf8cO6X4fytPRJovJUbF49/zzx4WfgX9E44FMsw9hT8hrKiIqDSHvGvA==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.2.0",
       "files": [
@@ -2153,7 +2153,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.2.0": {
-      "sha512": "5Xvh/3bDr6YAl6TKfeONvRDZ9QOmvVmzFzA0M6g8uubWdf5/o6qdVOqByFBT/fhjVb6okP0E5+v1oxh1Pk+c+w==",
+      "sha512": "FJie7IoPZFaPgNDxhZGmDBQP/Bs5vPdfca/G2Wf9gd6LIvMYkZcibtmJwB4tcf4KXkaOYfIOo4Cl9sEPMsSzkw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.2.0",
       "files": [
@@ -2167,7 +2167,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.2.0": {
-      "sha512": "Q3j3KC2ugqIVasf7pO4NRDEn7GysZX3ZH6fAHfbjrP8cYXY9cmHeFcbaniw36q8kFhsPt2EnRHzSsLBpbG6l2Q==",
+      "sha512": "spDm3AJYmebthDNhzY17YLPtvbc+Y1lCLVeiIH1uLJ/hZaM+40pBiPefFR8J1u66Ndkqi8ipR2tEbqPnYnjRhw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.2.0",
       "files": [
@@ -2181,7 +2181,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.2.0": {
-      "sha512": "39+GVHdbm+cmoOjdvm+fhiMbddnuVyUlBdYS8Yhn5xsNaBoTXpgBsxQQlI2Sv9EjIP0F+itG6yrDaOM2OEGupQ==",
+      "sha512": "T/J+XZo+YheFTJh8/4uoeJDdz5qOmOMkjg6/VL8mHJ9AnP8+fmV/kcbxeXsob0irRNiChf+V0ig1MCRLp/+Kog==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.2.0",
       "files": [
@@ -2203,6 +2203,7 @@
       "path": "microsoft.netcore.targets/2.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
@@ -2651,10 +2652,10 @@
         "tools/install.ps1"
       ]
     },
-    "NSubstitute/4.0.0": {
-      "sha512": "XWUhuNVAo0FuKWMKnEAD1/NZ5nQcScGCd72vMRcKWoYrvXZTSvbaf5xBqO+6T9o426TOR++m+0VwE5b0U+P7og==",
+    "NSubstitute/4.2.1": {
+      "sha512": "CqQuOU06ftAKrTV7Op/s0hdSII4RP6SNjP/XT1+2oEC6EqwYLXOfek/p+SEuHgaH8WNwEHWIYjsrUV9oSOIOXw==",
       "type": "package",
-      "path": "nsubstitute/4.0.0",
+      "path": "nsubstitute/4.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2666,7 +2667,7 @@
         "lib/netstandard1.3/NSubstitute.xml",
         "lib/netstandard2.0/NSubstitute.dll",
         "lib/netstandard2.0/NSubstitute.xml",
-        "nsubstitute.4.0.0.nupkg.sha512",
+        "nsubstitute.4.2.1.nupkg.sha512",
         "nsubstitute.nuspec"
       ]
     },
@@ -3309,7 +3310,6 @@
       "path": "system.diagnostics.process/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4276,7 +4276,6 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5869,8 +5868,8 @@
       "FlowerShop >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "NSubstitute >= 4.0.0",
       "NUnit3TestAdapter >= 3.11.0",
+      "Nsubstitute >= 4.2.1",
       "nunit >= 3.11.0"
     ]
   },
@@ -5881,11 +5880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g17k7453\\Desktop\\MyStuff\\flowershop\\FlowerShopTests\\FlowerShopTests.csproj",
+      "projectUniqueName": "j:\\Desktop\\part 2\\flowershop\\FlowerShopTests\\FlowerShopTests.csproj",
       "projectName": "FlowerShopTests",
-      "projectPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g17k7453\\Desktop\\MyStuff\\flowershop\\FlowerShopTests\\FlowerShopTests.csproj",
+      "projectPath": "j:\\Desktop\\part 2\\flowershop\\FlowerShopTests\\FlowerShopTests.csproj",
       "packagesPath": "C:\\Users\\g17k7453\\.nuget\\packages\\",
-      "outputPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g17k7453\\Desktop\\MyStuff\\flowershop\\FlowerShopTests\\obj\\",
+      "outputPath": "j:\\Desktop\\part 2\\flowershop\\FlowerShopTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5904,8 +5903,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g17k7453\\Desktop\\MyStuff\\flowershop\\FlowerShop\\FlowerShop.csproj": {
-              "projectPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g17k7453\\Desktop\\MyStuff\\flowershop\\FlowerShop\\FlowerShop.csproj"
+            "j:\\Desktop\\part 2\\flowershop\\FlowerShop\\FlowerShop.csproj": {
+              "projectPath": "j:\\Desktop\\part 2\\flowershop\\FlowerShop\\FlowerShop.csproj"
             }
           }
         }
@@ -5929,13 +5928,13 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
-          "NSubstitute": {
-            "target": "Package",
-            "version": "[4.0.0, )"
-          },
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.11.0, )"
+          },
+          "Nsubstitute": {
+            "target": "Package",
+            "version": "[4.2.1, )"
           },
           "nunit": {
             "target": "Package",
@@ -5943,10 +5942,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

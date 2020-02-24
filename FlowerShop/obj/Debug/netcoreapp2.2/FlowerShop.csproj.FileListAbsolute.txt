@@ -1,0 +1,10 @@
+j:\Desktop\part 2\flowershop\FlowerShop\obj\Debug\netcoreapp2.2\FlowerShop.csprojAssemblyReference.cache
+j:\Desktop\part 2\flowershop\FlowerShop\obj\Debug\netcoreapp2.2\FlowerShop.AssemblyInfoInputs.cache
+j:\Desktop\part 2\flowershop\FlowerShop\obj\Debug\netcoreapp2.2\FlowerShop.AssemblyInfo.cs
+j:\Desktop\part 2\flowershop\FlowerShop\bin\Debug\netcoreapp2.2\FlowerShop.deps.json
+j:\Desktop\part 2\flowershop\FlowerShop\bin\Debug\netcoreapp2.2\FlowerShop.runtimeconfig.json
+j:\Desktop\part 2\flowershop\FlowerShop\bin\Debug\netcoreapp2.2\FlowerShop.runtimeconfig.dev.json
+j:\Desktop\part 2\flowershop\FlowerShop\bin\Debug\netcoreapp2.2\FlowerShop.dll
+j:\Desktop\part 2\flowershop\FlowerShop\bin\Debug\netcoreapp2.2\FlowerShop.pdb
+j:\Desktop\part 2\flowershop\FlowerShop\obj\Debug\netcoreapp2.2\FlowerShop.dll
+j:\Desktop\part 2\flowershop\FlowerShop\obj\Debug\netcoreapp2.2\FlowerShop.pdb

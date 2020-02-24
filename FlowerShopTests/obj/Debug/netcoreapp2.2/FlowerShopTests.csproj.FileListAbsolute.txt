@@ -1,0 +1,3 @@
+j:\Desktop\part 2\flowershop\FlowerShopTests\obj\Debug\netcoreapp2.2\FlowerShopTests.csprojAssemblyReference.cache
+j:\Desktop\part 2\flowershop\FlowerShopTests\obj\Debug\netcoreapp2.2\FlowerShopTests.AssemblyInfoInputs.cache
+j:\Desktop\part 2\flowershop\FlowerShopTests\obj\Debug\netcoreapp2.2\FlowerShopTests.AssemblyInfo.cs
